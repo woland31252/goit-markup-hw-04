@@ -145,7 +145,6 @@ body {
 .footer-link:hover,
 .footer-link:focus
  {color: var(--accent-color);
-color: var(--accent-color);
 }
 
 /* --------HERO---------- */
