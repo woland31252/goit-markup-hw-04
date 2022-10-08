@@ -123,7 +123,8 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--contacts-link);
-    color: var(--contacts-link);
+    display: flex;
+    align-items: center;
 }
 
 .mail, .phone {
@@ -140,10 +141,11 @@ body {
 
 .contacts-link:hover,
 .header-link:hover,
+.header-link:focus,
 .footer-link:hover,
-.header-link:focus {
-    color: var(--accent-color);
-    color: var(--accent-color);
+.footer-link:focus
+ {color: var(--accent-color);
+color: var(--accent-color);
 }
 
 /* --------HERO---------- */
@@ -206,13 +208,19 @@ margin: 0 auto;
 }
 
 .icon-item {
-    display: flex;
+display: flex;
+gap: 30px;
+margin-bottom: 30px;
+}
+
+.icon-advanteges {
+    /* display: flex; */
     width: 270px;
     height: 120px;
     background-color: var(--command-backgroud);
     border-radius: 4px;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
 }
 
 
@@ -225,6 +233,7 @@ margin: 0 auto;
     font-size: var(--second-font-size);
     line-height: 1.14;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .advanteges-item {
@@ -512,7 +521,11 @@ padding: 60px 0;
     width: calc((100% - 60px) / 3);
 }
 
-.galery-item:hover {
+.galery-link {
+    display: block;
+}
+
+.galery-link:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
