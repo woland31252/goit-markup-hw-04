@@ -207,21 +207,15 @@ margin: 0 auto;
 }
 
 .icon-item {
-display: flex;
-gap: 30px;
-margin-bottom: 30px;
-}
-
-.icon-advanteges {
-    /* display: flex; */
     width: 270px;
     height: 120px;
     background-color: var(--command-backgroud);
     border-radius: 4px;
-    /* justify-content: center;
-    align-items: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
 }
-
 
 .advanteges-list {
     display: flex;
